@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+mio = { version = "0.8", features = ["os-poll", "net"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
